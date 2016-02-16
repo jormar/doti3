@@ -3,6 +3,7 @@ Configuración para i3
 
 Configuración de 2 pantallas. Una configuración típica sería:
 
+```
 (virtual screen coordinates)
      0       1366                 1366+1920
    0           A-----------------------
@@ -16,11 +17,12 @@ Configuración de 2 pantallas. Una configuración típica sería:
 1080 ----------------------------------
 
 Con A=(1366,0), B=(0,1080-768)=(0,312)
-
+```
 
 Pero, como quiero un ajuste acorde a la posición real de las
 pantallas en el escritorio, un escenario ideal sería:
 
+```
 (virtual screen coordinates)
      0              1366                 1366+1920
    0                  A-----------------------
@@ -38,3 +40,4 @@ pantallas en el escritorio, un escenario ideal sería:
 
 A=(1366,0)
 B=(0, 1080/2)=(0, 540)
+```
